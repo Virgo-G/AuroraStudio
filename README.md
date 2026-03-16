@@ -97,7 +97,7 @@ AuroraUI is organized into modular systems.
 
 ``` lua
 -- Load the library
-local Aurora = loadstring(game:HttpGet("URL"))()
+local Aurora = loadstring(game:HttpGet("https://raw.githubusercontent.com/Virgo-G/AuroraStudio/refs/heads/main/AuroraUI.lua"))()
 
 -- Create a window
 local Window = Aurora:CreateWindow({
@@ -193,7 +193,7 @@ AuroraUI returns the framework table at the end of the script, allowing
 it to be used with:
 
 ``` lua
-loadstring(game:HttpGet("URL"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Virgo-G/AuroraStudio/refs/heads/main/AuroraUI.lua"))()
 ```
 
 This makes the framework compatible with **Roblox scripting environments
